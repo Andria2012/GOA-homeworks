@@ -1,5 +1,0 @@
-print("andria")
-print("black")
-print("12 41")
-print("CIRA GIO BABI SABA")
-print("DOG")
