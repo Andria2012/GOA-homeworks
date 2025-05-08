@@ -1,20 +1,32 @@
-print("hello my name is andria and my surname is khmaladze,i am 12 years old")
 
-print("hello my name is gigi and my surname is gogitidze,i am 16 years old")
+name = "andria"
 
-print("hello my name is saba and my surname is gogiashvili,i ma 14 years old")
+lastname = "khmaladze"
+
+age = 12
 
 
+print("Hello my name is",name,lastname,"and i am",age,"years old")
 
 
-print = "count + 23"
+num1 = 5
 
-count =  "count + 221"
+num2 = 20
 
-count = "234"
+num3 = 9
 
-count=print ("342")
+num4 = 6
 
-count = count + "323"
+num5 = 10
+
+
+print(num1 + num2 + num3 + num4 + num5)
+
+print(num1 - num2 - num3 - num4 - num5)
+
+print(num1 * num2 * num3 * num4 * num5)
+
+print(num1 / num2 / num3 / num4 / num5)
+
 
 
