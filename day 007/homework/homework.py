@@ -19,7 +19,7 @@ while i >= 1:
 
 
 
-# A "while" loop in programming is a control flow statement that repeatedly executes a block of code as long as a given condition is true. It continues to loop until the condition becomes false, at which point the loop terminates. This is useful when you don't know in advance how many times a specific code section needs to be run. 
+# A "while loop" in programming is a control flow statement that repeatedly executes a block of code as long as a given condition is true. It continues to loop until the condition becomes false, at which point the loop terminates. This is useful when you don't know in advance how many times a specific code section needs to be run. 
 
 
 

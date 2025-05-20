@@ -11,8 +11,13 @@ while 1<100:
 
 
 
+# ეს არის while ციკლის თავი (პირობა):
+i = 0
+while i < 5:  # ციკლის თავი: სანამ i ნაკლებია 5-ზე
+    # ეს არის while ციკლის სხეული:
+    print("i =", i)  # ციკლის სხეული: შესასრულებელი კოდი
+    i += 1  # ცვლადის გაზრდა
 
-# A "while" loop in programming is a control flow statement that repeatedly executes a block of code as long as a given condition is true. It continues running the code within the loop until the condition becomes false, at which point the loop stops and the program continues with the next statement. 
 
 
 
@@ -22,3 +27,20 @@ while 1<10:
 
 
 1,2,3,4,5,6,7,8,9,10
+
+
+
+
+
+names = []
+
+while i < 5:  
+    name = input("enter the name:") 
+    names.append(andria)    
+    i += 1
+
+   result =  ",".join(andria,nika,gela,zura,indiko)
+
+
+print("შეყვანილი სახელებია:", result)
+
