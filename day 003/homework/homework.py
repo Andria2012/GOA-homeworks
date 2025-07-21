@@ -1,32 +1,21 @@
+age = int(input("შეიყვანე შენი ასაკი: "))
+print("შენი ასაკია:", age)
+
 
 name = "andria"
 
-lastname = "khmaladze"
-
-age = 12
+print("hello" + name)
 
 
-print("Hello my name is",name,lastname,"and i am",age,"years old")
+#input-ი არის პროგრამის შესრულების დროს მომხმარებლისგან მონაცემების მისაღებად.
+
+#output-ი არის პროგრამა წარმოქმნის და აგზავნის გარე დანიშნულების ადგილამდე.
+
+name = "gurami"
+
+print(name)
 
 
-num1 = 5
+#snake_case არის დასახელების კონვენცია, სადაც ფრაზაში სიტყვები გაერთიანებულია ინტერვალების გარეშე
 
-num2 = 20
-
-num3 = 9
-
-num4 = 6
-
-num5 = 10
-
-
-print(num1 + num2 + num3 + num4 + num5)
-
-print(num1 - num2 - num3 - num4 - num5)
-
-print(num1 * num2 * num3 * num4 * num5)
-
-print(num1 / num2 / num3 / num4 / num5)
-
-
-
+#camel_case არის სახელდების კონვენცია, სადაც მრავალსიტყვიან იდენტიფიკატორში სიტყვები ერთმანეთთან დაკავშირებულია ინტერვალების გარეშე
