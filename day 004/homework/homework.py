@@ -1,40 +1,36 @@
-name = input("enter your name: ")
+# == (ტოლობა): ამოწმებს, არის თუ არა ორი მნიშვნელობა ერთმანეთის ტოლი
 
-age = input("enter your age: ")
+# != (არათოლობა): ამოწმებს, არ არის თუ არა ორი მნიშვნელობა ერთმანეთის ტოლი
 
-print ("name:",name)
-print ("age: ",age)
+# > (მეტობა): ამოწმებს, არის თუ არა მარცხენა მნიშვნელობა მარჯვენაზე მეტი
 
+# < (ნაკლებობა): ამოწმებს, არის თუ არა მარცხენა მნიშვნელობა მარჯვენაზე ნაკლები
 
-width = int(input("Enter the width: ")) 
-height = int(input("Enter the height: "))
+# >= (მეტია ან ტოლი): ამოწმებს, არის თუ არა მარცხენა მნიშვნელობა მარჯვენაზე მეტი ან ტოლი
 
-s = width * height
+# <= (ნაკლებია ან ტოლი): ამოწმებს, არის თუ არა მარცხენა მნიშვნელობა მარჯვენაზე ნაკლები ან ტოლი
 
-p = (width + height) * 2
+# and ოპერეტორი აბრუნებს true-ს როდესაც პირობამ არის true მხოლო იმ პირობით აბრუნებს false როდესაც პირობა არის false
 
-print(s/p)
+# or ოპერატორი აბრუნებს True-ს მაშინაც კი, თუ მხოლოდ ერთი პირობა მაინც არის True მხოლოდ მაშინ აბრუნებს False-ს, როცა ორივე პირობა False-ია.
 
+print(True and 6 < 7 or "hello" != 5.4 and False or 7 - 7 < 9 + 2)
 
-
-
-#input:kompiutershi romelic inpormacia shedis.
-
-#output:rodesac kopiuteri gamoscems inpormacias.
-
-
-
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number:"))
-
-print(num1 + num2)
-
-print(num1 - num2)
-
-print(num1 * num2)
-
-print(num1 / num2)
+# აქ წერია and და or 
+# აქ წერია intengeri
+# აქ წერია true da false
+# აქ წერია <,!=
+# აქ წერია stringi
+# აქ წერია float
+# აქ წერია მათემატკური ოპერაციები
 
 
+#ჩვენ შეგვიძლია გამოვიყენოთ მხოლოდ and
 
+print(True and False)
+print(False and False)
+print(True and True)
 
+print(True or True)
+print(True or False)
+print(False or False)

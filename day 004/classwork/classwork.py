@@ -1,21 +1,11 @@
-name = "andria"
-
-age = "12"
-
-lastname = "khmaladze"
-
-mother_name = "cira"
-
-father_name = "giorgi"
-
-print("hello my name is ",name,lastname,"i am ",age," years old and my mother name is",mother_name,"and my father name is ",father_name)
+asaki = int(input("შეიყვანე შენი ასაკი: "))
+if asaki > 18:
+    print("თქვენი ასაკი მეტია 18-ზე.")
+elif asaki == 18:
+    print("თქვენი ასაკი ზუსტად 18 წელია.")
+else:
+    print("თქვენი ასაკი ნაკლებია 18-ზე.")
 
 
+# print(True and False or 5>2 and False or False and True) ეს კოდი გამოიტანს false
 
-
-name = input("Enter your name: ")
-
-lastname = input("Enter your last name: ")
-
-print("Name: ",name)
-print("Last name: ",lastname)

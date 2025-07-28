@@ -34,10 +34,6 @@ kg = 6.20
 
 print(kg)
 
-kg = 8.32
-
-print(kg)
-
 a = 10
 b = 5
 c = 3
@@ -70,4 +66,4 @@ str1 = "მე მიყვარს"
 str2 = "პროგრამირება"
 str3 = "Python-ით"
 str4 = "იმიტომ ძალიან მაგარია"
-print(str1 + str2 + str3 + str4)
+print(str1 + " " + str2 + " " + str3 + " " + str4)

@@ -1,7 +1,13 @@
-"hello world"
+name = "andria"
+print(name)
 
-12
+num = 90
+print(num)
 
-4.3
+kg = 6.5
+print(kg)
 
-True
+print(10 + 10)
+print(9 - 5)
+print(15 * 2)
+print(10 / 2)

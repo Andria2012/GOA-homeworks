@@ -1,17 +1,18 @@
-print("Name: " + "andria")
-print("Age: " + "12")
-print("Height: 1.34")
-print("Hello " + "andria" + "! Your age is " + "12")
+user_name = "andria"
+print(user_name)
 
+user_name = "gio"
+print(user_name)
 
-name = "andria"
+userName = "saba"
+print(userName)
 
+userName = "nika"
+print(userName)
 
+#snake_case-ს იყენებენ პითონში
+#camel_case-ს იყენებენ ძირითადად ჯავა სკრიპტზე
 
-pokemon = "pikachu"
-
-count = 1
-
-count =count + 1
-
-pokemon = "pikachu,charlizard"
+name = str(input("enter your name: "))
+username = str(input("enter your username: "))
+print("hello" + " " + name + " " + username)
