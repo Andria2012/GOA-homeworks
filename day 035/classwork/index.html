@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 35 - დავალება</title>
+    <style>
+        /* Paragraph სტილები */
+        .green-paragraph {
+            color: green;
+            background-color: black;
+            text-align: right;
+        }
+
+        .yellow-paragraph {
+            color: yellow;
+            background-color: red;
+            text-align: center;
+        }
+
+        /* Heading სტილები */
+        h1 {
+            color: white;
+            background-color: navy;
+            text-align: center;
+        }
+
+        h2 {
+            color: orange;
+            background-color: gray;
+            text-align: right;
+        }
+
+        /* ფოტო სტილები */
+        .img1 {
+            border: 1px solid purple;
+            width: 300px;
+        }
+
+        .img2 {
+            border: 1px double purple;
+            width: 300px;
+        }
+
+        /* ღილაკების სტილები */
+        .left-button {
+            font-size: 18px;
+            background-color: lightblue;
+            color: darkblue;
+            float: left;
+            margin: 20px;
+        }
+
+        .right-button {
+            font-size: 18px;
+            background-color: lightgreen;
+            color: darkgreen;
+            float: right;
+            margin: 20px;
+        }
+
+        /* clearfix */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading ელემენტები -->
+    <h1>მთავარი სათაური</h1>
+    <h2>ქვესათაური</h2>
+
+    <!-- Paragraph ელემენტები -->
+    <p class="green-paragraph">ეს არის პირველი მწვანე პარაგრაფი შავი ფონის ფონზე, მარჯვნივ გადაწეული.</p>
+    <p class="green-paragraph">ეს არის მეორე მწვანე პარაგრაფი შავი ფონის ფონზე, მარჯვნივ გადაწეული.</p>
+
+    <p class="yellow-paragraph">ეს არის პირველი ყვითელი პარაგრაფი წითელი ფონის ფონზე, ცენტრში განლაგებული.</p>
+    <p class="yellow-paragraph">ეს არის მეორე ყვითელი პარაგრაფი წითელი ფონის ფონზე, ცენტრში განლაგებული.</p>
+
+    <!-- ფოტოები -->
+    <img src="https://via.placeholder.com/300x200?text=ფოტო+1" alt="ფოტო 1" class="img1">
+    <img src="https://via.placeholder.com/300x200?text=ფოტო+2" alt="ფოტო 2" class="img2">
+
+    <!-- ღილაკები -->
+    <div class="clearfix">
+        <button class="left-button">მარცხენა ღილაკი</button>
+        <button class="right-button">მარჯვენა ღილაკი</button>
+    </div>
+
+</body>
+</html>

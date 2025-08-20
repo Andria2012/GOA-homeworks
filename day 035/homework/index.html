@@ -1,0 +1,127 @@
+<p style="color: red; font-size: 18px;">ეს წითელი ტექსტია</p>
+
+color: ცვლის ტექსტის ფერს.
+მაგ: color: blue;
+
+background-color: ცვლის ელემენტის ფონურ ფერს.
+მაგ: background-color: yellow;
+
+font-size: განსაზღვრავს ტექსტის ზომას.
+მაგ: font-size: 16px;
+
+text-align: აყალიბებს ტექსტის განლაგებას ელემენტში (left, right, center, justify).
+მაგ: text-align: center;
+
+border: ელემენტს აძლევს საზღვარს. შეგვიძლია დავამატოთ სისქე, სტილი და ფერი.
+მაგ: border: 1px solid black;
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>რესტორანი "გემრიელი კუთხე"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #c0392b;
+        }
+        .dish {
+            border: 1px solid #ddd;
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .dish img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>რესტორანი "გემრიელი კუთხე"</h1>
+    <p>მოგესალმებით ჩვენს გემრიელ სამყაროში!</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>🍲 სადილები</h2>
+
+        <div class="dish">
+            <h3>ხორციანი სუპი</h3>
+            <img src="https://via.placeholder.com/400x250?text=ხორციანი+სუპი" alt="ხორციანი სუპი">
+            <p>სურნელოვანი ხორციანი სუპი კარტოფილითა და ბოსტნეულით.</p>
+        </div>
+
+        <div class="dish">
+            <h3>ლობიო</h3>
+            <img src="https://via.placeholder.com/400x250?text=ლობიო" alt="ლობიო">
+            <p>ტრადიციული ლობიო მწვანილითა და მჭადით.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>🥘 ძირითადი კერძები</h2>
+
+        <section>
+            <h3>მწვადი</h3>
+            <div class="dish">
+                <img src="https://via.placeholder.com/400x250?text=მწვადი" alt="მწვადი">
+                <p>ღორის მწვადი სურნელოვან სოუსში, წითელი ხახვით და ლავაშით.</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>ქაბაბი</h3>
+            <div class="dish">
+                <img src="https://via.placeholder.com/400x250?text=ქაბაბი" alt="ქაბაბი">
+                <p>ტრადიციული ქართული ქაბაბი ცხარე სოუსით.</p>
+            </div>
+        </section>
+
+    </section>
+
+    <section>
+        <h2>🍰 დესერტები</h2>
+
+        <div class="dish">
+            <h3>ნაპოლეონი</h3>
+            <img src="https://via.placeholder.com/400x250?text=ნაპოლეონი" alt="ნაპოლეონი">
+            <p>მდიდარი კრემიანი ნაპოლეონი, რომელიც დაიმახსოვრებთ.</p>
+        </div>
+
+        <div class="dish">
+            <h3>ჩურჩხელა</h3>
+            <img src="https://via.placeholder.com/400x250?text=ჩურჩხელა" alt="ჩურჩხელა">
+            <p>ქართული ტკბილეული ყურძნის წვენითა და კაკლით.</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2025 რესტორანი "გემრიელი კუთხე" | ყველა უფლება დაცულია.</p>
+</footer>
+
+</body>
+</html>
