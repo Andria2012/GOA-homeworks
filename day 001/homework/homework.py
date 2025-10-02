@@ -1,28 +1,35 @@
-name = "Andria"
+print("*")
+print("**")
+print("***")
+print("****")
+print("*****")
 
-collor = "black"
 
-collor2 = "red"
 
-age = 12
+print("khinkali")
+print("lobio")
+print("fries")
+print("burger")
+print("shaurma")
 
-age1 = 15
 
-age2 = 17
 
-name = "saba"
 
-name1 = "babi"
+name = "andria"
+print("hello", name)
 
-name2 = "cira"
 
-name3 = "jorje"
+print("#########")
+print("# hello #")
+print("#########")
 
-animal = True
 
-birds = False
+name = "fries"
+name1 = "burger"
+name2 = "shaurma"
+name4 = "khinkali"
 
-#string(სტრინგი) -> ნებისმიერი მონაცემი რომელი ბრჭყალებშია მოქცეული
-#integer(ინტეჯრი) -> მთელი რიცხვი
-#float(ათწილადი)
-#boolean -> True /False
+print(4.50,name)
+print(6.42,name1)
+print(8.49,name2)
+print(10.34,name4)

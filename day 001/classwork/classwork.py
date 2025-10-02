@@ -1,7 +1,9 @@
-"hello world"
+print("hello")
 
-12
+name = "giorgi"
+print(name)
 
-4.3
+name = "andria"
+age = 13
 
-True
+print(name, age)
