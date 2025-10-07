@@ -1,0 +1,69 @@
+<html lang="ka">
+</section>
+
+
+<section id="about" class="card" style="margin-top:1rem">
+<h2>ჩვენ შესახებ</h2>
+<p>კაფე არტი დაარსდა 2022 წელს — ჩვენი მიზანია შევქმნათ სივრცე საიდანაც კონტენტსაციტოკის და კალატისტიკური ექსპერიმენტები იწყება.</p>
+
+
+<table aria-describedby="hours-desc" style="margin-top:1rem">
+<caption id="hours-desc">სამუშაო საათები</caption>
+<thead>
+<tr><th>დღეები</th><th>საათი</th></tr>
+</thead>
+<tbody>
+<tr><td>ორშაბათი–პარასკევი</td><td>08:00–20:00</td></tr>
+<tr><td>შაბათი–კვირა</td><td>09:00–22:00</td></tr>
+</tbody>
+</table>
+</section>
+
+
+<section id="contact" class="card" style="margin-top:1rem">
+<h2>კონტაქტი</h2>
+<form onsubmit="event.preventDefault();submitForm();" aria-label="კონტაქტის ფორმა">
+<label for="name">სახელი</label><br>
+<input id="name" name="name" type="text" required placeholder="სრული სახელი" style="width:100%;padding:.5rem;margin:.3rem 0;border-radius:6px;border:1px solid #ddd"><br>
+
+
+<label for="message">მესიჯი</label><br>
+<textarea id="message" name="message" rows="4" required style="width:100%;padding:.5rem;margin:.3rem 0;border-radius:6px;border:1px solid #ddd" placeholder="წერეთ აქ"></textarea>
+
+
+<div style="display:flex;gap:.5rem;align-items:center;margin-top:.5rem">
+<button class="btn" type="submit">გაგზავნა</button>
+<progress id="sendProgress" value="0" max="100" style="flex:1;display:none"></progress>
+</div>
+</form>
+
+
+<p class="meta" style="margin-top:.5rem">ხაზი: <time datetime="2025-10-07">07 ოქტომბერი, 2025</time></p>
+</section>
+
+
+<aside class="card" style="margin-top:1rem">
+<h3>საპაროლო ბლოკჩეინი</h3>
+<p>გამოყენებული ტეგები: header, nav, main, section, article, aside, footer, h1-h3, p, img, figure, figcaption, ul, ol, li, a, button, form, input, textarea, label, table, thead, tbody, tr, th, td, details, summary, time, progress.</p>
+</aside>
+</main>
+
+
+<footer role="contentinfo">
+<div class="container">
+<p>© 2025 კაფე არტი — შექმნილი დემოსთვის • <a href="#home">პირსპექტივი</a></p>
+</div>
+</footer>
+
+
+<script>
+function submitForm(){
+const prog = document.getElementById('sendProgress');
+prog.style.display='block'; prog.value = 0;
+let v=0; const iv=setInterval(()=>{v+=20; prog.value=v; if(v>=100){clearInterval(iv);prog.style.display='none';alert('მადლობა! თქვენ შეტყობინება გაგზავნილია.')}} ,300);
+}
+</script>
+
+    <h1>მოკლედ ამ ვიდეოში ახსეს რაშია განსხვავება ჩთმლში,ჯავაში და ცსსში.ჩთმლი არის მაგალითად ადამიანის ძვალი,ცსსი არის ადამინაის კანი და ჯავა არის ადამიანის სისხლი</h1>
+</body>
+</html>
