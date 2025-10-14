@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>სრული HTML დოკუმენტი — მაგალითი</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
+    header, footer { text-align: center; margin: 1rem 0; }
+    .images { display: flex; gap: 12px; flex-wrap: wrap; }
+    .images img { border-radius: 6px; display: block; }
+    nav { margin: 12px 0; }
+    .buttons { display:flex; gap:8px; margin-top:8px; }
+    /* ბუტონებისთვის მცირე სტილი */
+    button { padding: 8px 12px; border-radius:6px; border:1px solid #888; background:#f0f0f0; cursor:pointer; }
+    button:hover { background:#e8e8e8; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ჩემი გვერდის სათაური — მაგალითი</h1>
+    <p>ეს არის მაგალითი HTML დოკუმენტის, რომელიც შეიცავს მოთხოვნილ ელემენტებს.</p>
+  </header>
+
+  <!-- სურათები -->
+  <section class="images" aria-label="example images">
+    <!-- თუ შენ გაქვს საკუთარი სურათი, შეცვალე src="..." თავის ადგილობრივ ფაილზე ან შენახული URL-ზე -->
+    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=600&h=400&fit=crop"
+         alt="მაგალითი ფოტო 1"
+         width="600" height="400">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop"
+         alt="მაგალითი ფოტო 2"
+         width="600" height="400">
+  </section>
+
+  <!-- პუნქტები (5 paragraph) -->
+  <main>
+    <p>პარაგრაფი 1: ეს არის პირველი აბზაცი — მოკლე შესავალი გვერდის მიზნზე.</p>
+    <p>პარაგრაფი 2: მეორე აბზაცი შეიცავს დამატებით ინფორმაციას და პატარა აღწერას.</p>
+    <p>პარაგრაფი 3: მესამე აბზაცი შეიძლება იყოს გამოყენებული ავტორისა ან ციტატის შესატანად.</p>
+    <p>პარაგრაფი 4: მეოთხე აბზაცი — გამოყენების ინსტრუქცია ან დამატებითი დეტალები.</p>
+    <p>პარაგრაფი 5: მეხუთე აბზაცი — გაყიდვების, კონტაქტის ან დამხმარე ინფორმაციის ბლოკი.</p>
+  </main>
+
+  <!-- ჰიპერდაკავშირები (3 a tag) -->
+  <nav>
+    <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">ვებ-გვერდის ლინკი (example.com)</a> |
+    <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a> |
+    <a href="https://www.openai.com" target="_blank" rel="noopener noreferrer">OpenAI</a>
+  </nav>
+
+  <!-- ბუტონები რომლებიც გადაგიყვანენ სოციალურ ქსელში -->
+  <div class="buttons" role="group" aria-label="Social buttons">
+    <button type="button" onclick="window.open('https://www.facebook.com', '_blank', 'noopener')">
+      Facebook ზე გადასვლა
+    </button>
+    <button type="button" onclick="window.open('https://www.instagram.com', '_blank', 'noopener')">
+      Instagram ზე გადასვლა
+    </button>
+    <button type="button" onclick="window.open('https://www.youtube.com', '_blank', 'noopener')">
+      YouTube ზე გადასვლა
+    </button>
+  </div>
+
+  <!-- დაულაგებელი და დალაგებული სია -->
+  <section>
+    <h2>დაულაგებელი სია</h2>
+    <ul>
+      <li>ელემენტი A</li>
+      <li>ელემენტი B</li>
+      <li>ელემენტი C</li>
+    </ul>
+
+    <h2>დალაგებული სია</h2>
+    <ol>
+      <li>პირველი ნაბიჯი</li>
+      <li>მეორე ნაბიჯი</li>
+      <li>მესამე ნაბიჯი</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 — შენი სახელი ან ორგანიზაცია</p>
+  </footer>
+
+  <!-- სკრიპტი: დამატებითი მინიმალური JS, საჭიროების შემთხვევაში შეცვალე -->
+  <script>
+    // დამატებითი ფუნქციები თუ გინდა: მაგალითისთვის არაფერია საჭირო, 
+    // რადგან ბუტონები უკვე იყენებენ window.open-ს.
+  </script>
+</body>
+</html>
