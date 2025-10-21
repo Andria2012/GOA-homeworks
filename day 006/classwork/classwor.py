@@ -1,11 +1,37 @@
-x = 10
-print(x > 5 and x < 15)
-# ეს კოდი გამოიტანს true
+num = int(input("შეიყვანეთ რიცხვი: "))
 
-age = 17
-print(age < 18 or age > 65)
-#ეს კოდი გამოიტანს true
+if num > 0:
+    print("რიცხვი დადებითია")
+else:
+    print("რიცხვი უარყოფითია ან ნულია")
 
-password = "admin"
-print(password != "1234" and password != "password")
-#ეს კოდი გამოიტანს true  
+
+num = int(input("შეიყვანეთ რიცხვი: "))
+
+if num == 10:
+    print("რიცხვი არის 10-ის ტოლი")
+else:
+    print("რიცხვი არ არის 10-ის ტოლი")
+
+score = int(input("შეიყვანეთ თქვენი ქულა: "))
+
+if score >= 81:
+    print("თქვენ ჩააბარეთ!")
+else:
+    print("თქვენ ჩაიჭერით!")
+
+a = int(input("შეიყვანეთ პირველი რიცხვი: "))
+b = int(input("შეიყვანეთ მეორე რიცხვი: "))
+
+if a > 0 and b > 0:
+    print("ორივე პირობა სწორია")
+else:
+    print("პირობა არასწორია")
+
+a = int(input("შეიყვანეთ პირველი რიცხვი: "))
+b = int(input("შეიყვანეთ მეორე რიცხვი: "))
+
+if a > 5 or b > 5:
+    print("ერთ-ერთი პირობა მაინც სწორია")
+else:
+    print("არც ერთი პირობა არ შესრულდა")
