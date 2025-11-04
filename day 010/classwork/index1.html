@@ -1,19 +1,122 @@
-<!-- 1) შექმენით მარტივი ვებსაიტი სადაც თქვენ სახელ გვარს გამოიტანთ და ღილაკს სახელად "join goa" 
-2) შექმენი ვებსაიტი 
-3) დაწერეთ <i> თქვენი სახელი და გვარი 
-4) გააკეთეთ ღილაკი goa best 
-5) დაწერეთ <p> თეგით რატომ გიყვართ ხინკალი  -->
-      
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ka">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>სიის მაგალითი — HTML დოკუმენტი</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.5; padding:20px; max-width:900px; margin:auto; }
+    header { margin-bottom: 1.2rem; }
+    h1 { font-size: 1.8rem; margin: 0 0 0.4rem 0; }
+    h2 { font-size: 1.25rem; margin-top:1.1rem; }
+    p { margin: 0.4rem 0 0.9rem 0; }
+    .buttons { margin: 0.6rem 0 1.2rem 0; }
+    button { margin-right:0.6rem; padding:0.45rem 0.8rem; border-radius:6px; border:1px solid #ccc; background:#f7f7f7; cursor:pointer; }
+    .example { background:#fbfbfb; border:1px solid #eee; padding:12px; border-radius:8px; }
+    dd { margin: 0 0 0.8rem 1.2rem; }
+  </style>
 </head>
 <body>
-    <i>andria khmaladze</i>
-    <button>goa best</button>
-    <p>imitom rom xinkali gemrielia</p>
+  <header>
+    <h1>სიის და ელემენტების მაგალითი</h1>
+    <p>ამ დოკუმენტში წარდგენილია: ჰედინგები, პარაგრაფები, ღილაკები, დალაგებული და დაულაგებელი სიები, ასევე აღწერილობითი სია.</p>
+  </header>
+
+  <section class="example">
+    <h2>1. ჰედინგები და პარაგრაფები</h2>
+    <h3>მ.Level 3 ჰედინგი</h3>
+    <p>ეს არის მოკლე აბზაცი — შეგიძლიათ შეცვალოთ ტექსტი თქვენი მიზნების მიხედვით.</p>
+    <p>მეორე აბზაცი: აქ ვაჩვენებთ კიდევ ერთ მაგალითს, სადაც არის ვრცელი ტექსტი და ფორმატირება.</p>
+
+    <div class="buttons">
+      <button type="button" onclick="alert('ღილაკი 1 დააჭირეთ');">ღილაკი 1</button>
+      <button type="button" onclick="alert('ღილაკი 2 დააჭირეთ');">ღილაკი 2</button>
+      <button type="button" onclick="console.log('ღილაკი 3 ცივი ლოგი');">ღილაკი 3</button>
+    </div>
+  </section>
+
+  <section class="example" aria-labelledby="ordered-lists">
+    <h2 id="ordered-lists">2. დალაგებული სიები (3 ტიპი)</h2>
+
+    <!-- 1) რიცხვები (დიაგონალური) -->
+    <h3>1) რიცხვების ჩამონათვალი</h3>
+    <ol>
+      <li>პირველი ელემენტი</li>
+      <li>მეორე ელემენტი</li>
+      <li>მესამე ელემენტი</li>
+    </ol>
+
+    <!-- 2) ABC (დიდი ასოებით) -->
+    <h3>2) ABC (ანბანის მიხედვით)</h3>
+    <ol type="A">
+      <li>ელემენტი A</li>
+      <li>ელემენტი B</li>
+      <li>ელემენტი C</li>
+    </ol>
+
+    <!-- 3) რომაული I, II, III -->
+    <h3>3) რომაული ციფრებით (I, II, III...)</h3>
+    <ol type="I">
+      <li>პირველი (I)</li>
+      <li>მეორე (II)</li>
+      <li>მესამე (III)</li>
+    </ol>
+  </section>
+
+  <section class="example" aria-labelledby="unordered-lists">
+    <h2 id="unordered-lists">3. დაულაგებელი სიები (nested lists)</h2>
+
+    <p>κάθε დაულაგებელ სიას აქვს შიდა დაულაგებელი სია (nested &lt;ul&gt;).</p>
+
+    <ul>
+      <li>
+        მთავარი პუნქტი A
+        <ul>
+          <li>ქვეპუნქტი A.1</li>
+          <li>ქვეპუნქტი A.2</li>
+        </ul>
+      </li>
+      <li>
+        მთავარი პუნქტი B
+        <ul>
+          <li>ქვეპუნქტი B.1</li>
+          <li>ქვეპუნქტი B.2
+            <ul>
+              <li>გა-ქვეპუნქტი B.2.a</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        მთავარი პუნქტი C
+        <ul>
+          <li>ქვეპუნქტი C.1</li>
+          <li>ქვეპუნქტი C.2</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="example" aria-labelledby="description-list">
+    <h2 id="description-list">4. აღწერილობითი სია (Description List)</h2>
+
+    <p>აღწერილობითი ელემენტები გამოიყენება ტერმინებისა და მათი განმარტებების წყვილებისათვის.</p>
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>ჰიპერტექსტი მარკუპის ენა — ვებ-გვერდების შექმნის ძირითადი ენა.</dd>
+
+      <dt>CSS</dt>
+      <dd>სტილებისა და ხედვის განსაზღვრა — როგორ გამოიყურება HTML ელემენტები.</dd>
+
+      <dt>JavaScript</dt>
+      <dd>დინამიური ქცევა და ინტერაქტიურობა ვებ-გვერდზე.</dd>
+    </dl>
+  </section>
+
+  <footer style="margin-top:1.4rem; font-size:0.95rem; color:#555;">
+    <p>დოკუმენტი მართვიებულია მომხმარებლის მოთხოვნის მიხედვით — შეიცავს ყველა მოთხოვნილ ელემენტს.</p>
+  </footer>
+
 </body>
 </html>
