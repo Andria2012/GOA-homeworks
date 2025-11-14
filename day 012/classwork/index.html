@@ -1,72 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
+<footer class="bg-white border-t">
+<div class="container mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between">
+<p class="text-sm text-gray-600">© 2025 ბუკენბ.</p>
+<div class="flex gap-4">
+<a href="#" class="text-sm hover:text-blue-600">Privacy</a>
+<a href="contact.html" class="text-sm hover:text-blue-600">Contact</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
+<!doctype html>
 <html lang="ka">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ჩემი პირველი ვებ გვერდი</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
-      padding: 20px;
-    }
-
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-
-    ul {
-      background-color: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
-
-    button {
-      background-color: #1abc9c;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 16px;
-      margin-top: 20px;
-    }
-
-    .vertical-text p {
-      margin: 0;
-      padding: 5px 0;
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ბუკენბ — Contact Us</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-50 text-gray-800">
+<header class="bg-white shadow">
+<div class="container mx-auto px-6 py-4 flex items-center justify-between">
+<a href="index.html" class="flex items-center gap-3">
+<img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=80&q=80&auto=format&fit=crop&crop=faces" alt="logo" class="w-12 h-12 rounded-md" />
+<div>
+<h1 class="text-xl font-semibold">ბუკენბ</h1>
+<p class="text-xs text-gray-500">თქვენი სახლის წიგნის მაღაზია</p>
+</div>
+</a>
 
-  <!-- 1) მთავარი სათაური -->
-  <h1>ჩემი ვებ საიტი</h1>
 
-  <!-- 2) სათაური "ჩემ შესახებ" -->
-  <h2>ჩემ შესახებ</h2>
-  <p>მე ვარ დამწყები ვებდეველოპერი და ვსწავლობ HTML-ს!</p>
+<nav class="flex items-center gap-4">
+<a href="index.html" class="hover:text-blue-600">Home</a>
+<a href="about.html" class="hover:text-blue-600">About</a>
+<a href="contact.html" class="hover:text-blue-600">Contact</a>
+</nav>
+</div>
+</header>
 
-  <!-- 3) ul/li სიით სამი საყვარელი საჭმელი -->
-  <h3>ჩემი საყვარელი საჭმელები</h3>
-  <ul>
-    <li>ხაჭაპური</li>
-    <li>მცენარეული ხინკალი</li>
-    <li>ნაპოლეონი</li>
-  </ul>
 
-  <!-- 4) ღილაკი სახელად GOA BEST -->
-  <button>GOA BEST</button>
+<main class="container mx-auto px-6 py-10">
+<section class="bg-white rounded-lg shadow p-6 max-w-2xl mx-auto">
+<h2 class="text-2xl font-bold">დაკავშირდი ჩვენთან</h2>
+<p class="text-gray-600 mt-2">გაგზავნეთ ჩვენ კითხვები ან შეკვეთა - ვპასუხობთ ჩვეულებრივ 1–2 სამუშაო დღეში.</p>
 
-  <!-- 5) p თეგით ჩამოთვლილი ვერტიკალურად -->
-  <h3>ვერტიკალური ჩამონათვალი</h3>
-  <div class="vertical-text">
-    <p>მწვადი</p>
-    <p>ხინკალი</p>
-    <p>იხვის ტოლმა</p>
-  </div>
 
+<form onsubmit="event.preventDefault(); alert('Message sent!\nName: ' + this.name.value + '\nEmail: ' + this.email.value + '\nMessage: ' + this.message.value); this.reset();" class="mt-6 space-y-4">
+<div>
+<label class="block text-sm font-medium">სახელი</label>
+<input name="name" required class="mt-1 w-full border rounded px-3 py-2" />
+</div>
+<div>
+<label class="block text-sm font-medium">Email</label>
+<input name="email" type="email" required class="mt-1 w-full border rounded px-3 py-2" />
+</div>
+<div>
+<label class="block text-sm font-medium">მესიჯი</label>
+<textarea name="message" rows="5" required class="mt-1 w-full border rounded px-3 py-2"></textarea>
+</div>
+<div class="flex items-center gap-4">
+<button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Send Message</button>
+<button type="reset" class="px-4 py-2 border rounded">Reset</button>
+</div>
+</form>
+
+
+<div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<h4 class="font-semibold">ვეპთან მისვლა</h4>
+<p class="text-sm text-gray-600 mt-1">ვინახავთ მაღაზიაში: თბილისი, გამზ. მაგალითი 12</p>
+</div>
+<div>
+<h4 class="font-semibold">ტელეფონი</h4>
+<p class="text-sm text-gray-600 mt-1">+995 32 123 4567</p>
+</div>
+</div>
+</section>
+</main>
+
+
+<footer class="bg-white border-t">
+<div class="container mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between">
+<p class="text-sm text-gray-600">© 2025 ბუკენბ.</p>
+<div class="flex gap-4">
+<a href="#" class="text-sm hover:text-blue-600">Help</a>
+<a href="index.html" class="text-sm hover:text-blue-600">Back to Home</a>
+</div>
+</div>
+</footer>
 </body>
 </html>
