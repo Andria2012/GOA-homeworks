@@ -1,63 +1,36 @@
-month = int(input("შეიყვანე თვის ნომერი (1-12): "))
-
-if month in [12, 1, 2]:
-    print("სეზონი: ზამთარი")
-elif month in [3, 4, 5]:
-    print("სეზონი: გაზაფხული")
-elif month in [6, 7, 8]:
-    print("სეზონი: ზაფხული")
-elif month in [9, 10, 11]:
-    print("სეზონი: შემოდგომა")
-else:
-    print("არასწორი თვის ნომერია")
+i = 1
+while i < 21:
+  print(i)
+  i += 1
 
 
 
 
+i = 21
+while i < 0:
+  print(i)
+  i -= 1
 
 
 
-
-number = float(input("შეიყვანე რიცხვი: "))
-
-if number > 0:
-    print("რიცხვი დადებითია")
-elif number < 0:
-    print("რიცხვი უარყოფითია")
-else:
-    print("რიცხვი ნულია")
+i = 0
+while i < 21:
+  print(i)
+  i += 2
 
 
 
 
 
+i = 1
+while i < 6:
+  print(i)
+  i += 1
 
 
 
 
-x = 5
-
-if x > 10:
-    print("მეტია 10-ზე")
-elif x == 10:
-    print("ზუსტად 10")
-else:
-    print("ნაკლებია 10-ზე")
-
-
-
-
-
-
-
-age = int(input("შეიყვანე ასაკი: "))
-income = int(input("შეიყვანე შემოსავალი: "))
-
-if age < 18 or income < 10000:
-    print("გათავისუფლებული ხარ გადასახადისგან")
-else:
-    print("გადასახადი გადასახდელია")
-
-
-
-
+i = 1 
+while i <21 :
+  print(i)
+  i += 2

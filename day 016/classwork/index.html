@@ -1,91 +1,52 @@
 <!DOCTYPE html>
-<html lang="ka">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ფორმა</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table in html</title>
 </head>
 <body>
-
-  <form>
-    <label for="name">სახელი:</label>
-    <input type="text" id="name" name="name"><br><br>
-
-    <label for="email">ელ. ფოსტა:</label>
-    <input type="email" id="email" name="email"><br><br>
-
-    <button type="submit">გაგზავნა</button>
-  </form>
-
-</body>
-</html>
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="ka">
-<head>
-  <meta charset="UTF-8">
-  <title>Drop-down მენიუ</title>
-  <style>
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropdown-button {
-      background-color: #3498db;
-      color: white;
-      padding: 10px 20px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-      border-radius: 6px;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-      z-index: 1;
-      border-radius: 6px;
-    }
-
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    .dropdown:hover .dropdown-button {
-      background-color: #2980b9;
-    }
-  </style>
-</head>
-<body>
-
-<div class="dropdown">
-  <button class="dropdown-button">არჩევა</button>
-  <div class="dropdown-content">
-    <a href="#">ვარიანტი 1</a>
-    <a href="#">ვარიანტი 2</a>
-    <a href="#">ვარიანტი 3</a>
-    <a href="#">ვარიანტი 4</a>
-    <a href="#">ვარიანტი 5</a>
-  </div>
-</div>
-
+  <table border="10">
+     <tr>
+         <th>saxeli</th>
+         <th>gvari</th>
+         <th>asaki</th>
+         <th>qveyana</th>
+         <th>qalaqi</th>
+         <th>nomeri</th>
+         <th>saxlis misamarti</th>
+     </tr>
+     <tr>
+         <td>andria</td>
+         <td>xmaladze</td>
+         <td>14</td>
+         <td>saqartvelo</td>
+         <td>tbilisi</td>
+         <td>552 455 242</td>
+         <td>varketilis 13 qucha</td>
+     </tr>
+     <tr>
+     </tr>
+     <tr>
+         <td>dachi</td>
+         <td>alania</td>
+         <td>14</td>
+         <td>saqartvelo</td>
+         <td>tbilisi</td>
+         <td>554 531 223</td>
+         <td>varketilis 12 qucha</td>
+     </tr>
+     <tr>
+     </tr>
+     <tr>
+         <td>giorgi</td>
+         <td>qevxishvili</td>
+         <td>21</td>
+         <td>saqartvelo</td>
+         <td>tbilisi</td>
+         <td>556 246 222</td>
+         <td>vazisubani</td>
+     </tr>
+  </table>
 </body>
 </html>
