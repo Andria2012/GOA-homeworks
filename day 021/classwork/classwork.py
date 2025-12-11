@@ -1,24 +1,21 @@
-age = int(input("enter your age: "))
+fruits = ["apple", "banana", "cherry"]
 
-while True:
-    age = (1,2,3,4,5)
-else:
-    print("you are not ready")
+fruits.append("orange")
 
+print(fruits)
+print("jemali".find("t"))
+print("EZ".lower())
+print("kids".upper())
+print("i am a best".capitalize())
+fruits = ['apple', 'banana', 'cherry']
 
+fruits.remove("banana")
 
+print(fruits)
+a = ('apple', 'banana', 'cherry')
+b = "Hello World"
+c = 33
 
-for i in range(10,1):
-    print(i)
-
-
-
-while i in range(0,6):
-    print("me var nadiri")
-
-
-
-
-
-
-
+x = type(a)
+y = type(b)
+z = type(c)
