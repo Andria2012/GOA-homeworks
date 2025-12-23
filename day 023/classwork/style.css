@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.text {
+    color: green;
+    font-size: 18px;
+}
+
+#info {
+    color: red;
+    background-color: white;
+    padding: 10px;
+}
