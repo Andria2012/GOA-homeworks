@@ -1,35 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Border, Margin, Padding</title>
+    <style>
+        .p-border {
+            border: 2px dashed blue;
+        }
+
+        .img-border {
+            border: 10px solid black;
+            width: 200px;
+        }
+
+        .box1 {
+            border: 3px solid red;
+        }
+
+        .box2 {
+            border: 3px dotted green;
+        }
+
+        .box3 {
+            border: 3px double purple;
+        }
+
+        .margin-div {
+            margin: 30px;
+            border: 2px solid black;
+        }
+
+        .padding-div {
+            padding: 25px;
+            border: 2px solid orange;
+        }
+
+        .custom-padding {
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            padding-left: 15px;
+            border: 2px solid teal;
+        }
+
+        .custom-margin {
+            margin-top: 15px;
+            margin-right: 5px;
+            margin-bottom: 100px;
+            margin-left: 20px;
+            border: 2px solid brown;
+        }
+    </style>
 </head>
 <body>
-<div style="background-color: #d1e7dd; color: #0f5132; padding: 10px; margin-bottom: 20px;">
-  <h2>შენი სახელი: ანა</h2>
-  <p>ასაკი: 25</p>
-  <div style="background-color: #fff3cd; color: #664d03; padding: 10px; margin-bottom: 10px;">
-  <p>ჩემი საყვარელი საჭმელი: ხინკალი</p>
-  <div style="background-color: #cfe2ff; color: #084298; padding: 10px; margin-bottom: 20px;">
-  <p>ჩემი საყვარელი თამაში: FIFA</p>
-  <div style="text-align: center; background-color: #f8d7da; color: #842029; padding: 15px;">
-  <img src="https://via.placeholder.com/200" alt="ჩემი სურათი" style="max-width: 100%; height: auto;">
-  <p>ეს ვარ მე!</p>
-  <div style="background-color: #ffe5b4; color: #5a2a00; padding: 15px; margin-bottom: 20px;">
-  <h3>ჩემი საყვარელი საჭმელები:</h3>
-  <ul>
-    <li>პიცა</li>
-    <li>ხინკალი</li>
-    <li>ნაყინი</li>
-  </ul>
-  <div style="background-color: #ffe5b4; color: #5a2a00; padding: 15px; margin-bottom: 20px;">
-  <h3>ჩემი საყვარელი საჭმელები:</h3>
-  <ul>
-    <li>პიცა</li>
-    <li>ხინკალი</li>
-    <li>ნაყინი</li>
-  </ul>
-</div>
+
+    <p class="p-border">ეს არის პარაგრაფი წყვეტილი ლურჯი border-ით</p>
+
+    <img src="https://via.placeholder.com/200" class="img-border" alt="სურათი">
+
+    <div class="box1">პირველი ელემენტი</div>
+    <div class="box2">მეორე ელემენტი</div>
+    <div class="box3">მესამე ელემენტი</div>
+
+    <div class="margin-div">DIV გარე დაშორებით (margin)</div>
+
+    <div class="padding-div">DIV შიგა დაშორებით (padding)</div>
+
+    <div class="custom-padding">ელემენტი სხვადასხვა შიგა დაშორებით</div>
+
+    <div class="custom-margin">ელემენტი სხვადასხვა გარე დაშორებით</div>
+
 </body>
 </html>

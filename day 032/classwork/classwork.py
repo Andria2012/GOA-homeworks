@@ -1,43 +1,15 @@
-names = ["გიო", "ანა", "საბა"]
-sentence = ", ".join(names)
-print(sentence)
+numbers = {2,4,6,8}
+print(numbers)
 
+numbers = {1,3,5,9}
+print(numbers)
 
+my_set = {11}
+my_set.update([12,13,14,15,16,17,18,19,20,])
+print(my_set)
 
-animals = []
-animals.append("კუ")
-print(animals)
-
-
-
-print("პირველი:", animals[0])
-print("ბოლო:", animals[-1])
-
-
-
-word = "მეგობრები"
-print("ასოების რაოდენობა:", len(word))
-
-
-
-my_list = ["მე", "მიყვარს", "გოა"]
-print("ელემენტების რაოდენობა:", len(my_list))
-
-
-
-songs = ["song1", "song2", "song3"]
-songs.insert(2, "pantera")
-print(songs)
-
-
-
-joined_songs = "|".join(songs)
-print(joined_songs)
-
-
-
-
-text = "python"
-print(text.upper())
-print(text.lower())
-print(text.capitalize())
+my_set = {1,2,3,4,5,6,7,8,9}
+my_set.remove(1)
+my_set.discard(10)
+my_set.update([10,11,12])
+print(my_set)
