@@ -1,65 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rowspan Table</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        table {
-            border-collapse: collapse;
-            width: 40%;
-            margin: 20px auto;
+    .box {
+            width: 200px;
+            height: 120px;
+            background-color: lightblue;
+            color: black;
+
+            margin: 10px;
+            padding: 15px;
+
+            border: 2px solid black;
+            border-radius: 10px;
+
             text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        th, td {
-            border: 2px solid #555;
-            padding: 10px;
+            font-size: 16px;
+            display: inline-block;
         }
     </style>
-</head>
+</head>=
 <body>
-
-    <table>
-        <tr>
-            <td rowspan="2">მთის ცხოველები</td>
-            <td>დათვი</td>
-        </tr>
-        <tr>
-            <!-- პირველი სვეტი უკვე გაერთიანებულია, ამიტომ აქ მხოლოდ მეორე -->
-            <td>მგელი</td>
-        </tr>
-    </table>
-
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-    <title>Rowspan Table</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 40%;
-            margin: 20px auto;
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        th, td {
-            border: 2px solid #555;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-
-    <table>
-        <tr>
-            <td rowspan="2">მთის ცხოველები</td>
-            <td>დათვი</td>
-        </tr>
-        <tr>
-            <!-- პირველი სვეტი უკვე გაერთიანებულია, ამიტომ აქ მხოლოდ მეორე -->
-            <td>მგელი</td>
-        </tr>
-    </table>
-
+        <div class="box">Div 1</div>
+    <div class="box">Div 2</div>
+    <div class="box">Div 3</div>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container {
+            margin-top: 40px;
+        }
+
+        .div1 {
+            width: 150px;
+            height: 100px;
+            background-color: lightcoral;
+            margin-bottom: 30px;
+        }
+
+        .div2 {
+            width: 150px;
+            height: 100px;
+            background-color: lightgreen;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </div>
+</body>
+</html>
+
+<!--BOX MODEL — ეს არის ის მოდელი, რომლის მიხედვითაც ბრაუზერი ელემენტს აჩვენებს.
+
+Box Model შედგება 4 ძირითადი ნაწილისგან:
+
+1. content - ელემენტის შიგთავსი (ტექსტი, სურათი და ა.შ.)
+
+2. padding - სივრცე content-სა და border-ს შორის
+
+3. border - ჩარჩო padding-ის გარშემო
+
+4. margin - გარე სივრცე ელემენტსა და სხვა ელემენტებს შორის-->
